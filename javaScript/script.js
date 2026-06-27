@@ -2,9 +2,12 @@
 function restarclics() {
   var cantidad = document.querySelector("#cantidad");
   var actual = cantidad.innerHTML;
-  var menos = actual - 1
+  var menos = actual - 1;
   if (actual > 0)
-  cantidad.innerHTML = menos;
+  cantidad.innerHTML = menos; 
+  var total = menos * 16990;
+  precio.innerHTML = "$" + total
+ 
 }
 
 function sumarclics() {
